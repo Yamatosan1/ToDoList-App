@@ -122,3 +122,34 @@ h1{
     background:linear-gradient(120deg,#00fff7 0%,#b400ff 100%);
 }
 
+#taskList{
+    list-style:none;
+    padding:0;
+    margin:0 0 22px 0;
+}
+
+#deletSelectedBtn{
+    background:var(--neon-gradient);
+    color:#181e34;
+    border:none;
+    padding:13px 0;
+    border-radius:12px;
+    font-size:1.14rem;
+    cursor:pointer;
+    font-weight:900;
+    margin-top:10px;
+    align-self:stretch;
+    box-shadow:0 0 18px #00fff799, 0 2px 8px #0007;
+    letter-spacing: 2px;
+    border:2px solid transparent;
+    transition:background var(--transition),box-shadow var(--transition),border var(--transition),transform var(--transition),color var(--transition);
+}
+#deletSelectedBtn:hover,#deletSelectedBtn:focus{
+    background: linear-gradient(120deg,#b400ff 0%,#00fff7 100%);
+    color:#fff;
+    box-shadow:0 0 3px #00fff7cc, 0 0 16px #b400ff99;
+    border-color:#00fff7;
+    transition:scale(1.03);
+}
+
+
