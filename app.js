@@ -50,7 +50,7 @@ function createTaskElement(text,completed){
     checkbox.checked=completed;
 
     const span=document.createElement("span");
-    span.classname="task-text";
+    span.className="task-text";
     span.textContent=text;
 
     checkbox.addEventListener("change",()=>{
